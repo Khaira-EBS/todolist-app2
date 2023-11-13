@@ -1,7 +1,7 @@
 CREATE TABLE `user_todos` (
   `userid` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
-  `userpassword` varchar(255) NOT NULL,
+  `userpassword` varchar(10) NOT NULL,
   PRIMARY KEY (userid)
 )
 
